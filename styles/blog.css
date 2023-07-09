@@ -84,11 +84,21 @@ font-weight: 700;
     max-width: 500px;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 /* about section styles */
 .about{
     margin: 130px;
     border-radius: 10px;
 background: #FFF8F3;
 margin-top: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
